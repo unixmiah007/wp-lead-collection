@@ -3,8 +3,8 @@ namespace LeadProcessing;
 /**
   * Intercepts the information from the "Contact Form 7" plugin and inserts into a separate database
   *
-  * @package Jellyfish
-  * @author  Michael Brose <michael.brose@jellyfish.net>
+  * @package LeadProcessing
+  * @author  Shajahan Miah shaj.k.miah@gmail.com
  */
 
   class LeadIntercept
