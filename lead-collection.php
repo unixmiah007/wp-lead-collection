@@ -277,7 +277,7 @@ namespace LeadProcessing;
         $post_data["Device"]         = isset($_SESSION['device_type']) ? $_SESSION['device_type'] : '';
 
         if ($_SESSION['leadsource'] == 'Not_Defined' || $_SESSION['leadsource'] == ''){
-            $post_data["CID"]        = "JellyfishMicro";
+            $post_data["CID"]        = "Micro";
         } else {
             $post_data["CID"]        = $_SESSION['leadsource'];
         }
